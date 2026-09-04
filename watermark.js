@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{document.querySelectorAll("main img").forEach(img=>{if(img.id==="gallery-lightbox-image"||img.closest(".f26-photo-wrap")||img.hasAttribute("data-no-watermark"))return;const wrap=document.createElement("span");wrap.className="f26-photo-wrap";img.parentNode.insertBefore(wrap,img);wrap.appendChild(img)})});
