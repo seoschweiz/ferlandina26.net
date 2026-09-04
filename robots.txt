@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
 Sitemap: https://ferlandina26.net/sitemap.xml
+Sitemap: https://ferlandina26.net/image-sitemap.xml
